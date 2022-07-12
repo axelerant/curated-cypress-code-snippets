@@ -1,0 +1,22 @@
+{
+  "name": "internetheroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:open:mobile": "cypress open --config viewportWidth=375,viewportHeight=667",
+    "cypress:run:chrome": "cypress run --browser chrome",
+    "cypress:run:chrome:headed": "cypress run --headed --browser chrome",
+    "format": "prettier --write \"**/*.+(js|json|yml|md)\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.0.2",
+    "eslint-plugin-cypress": "^2.12.1",
+    "prettier": "^2.7.1"
+  }
+}

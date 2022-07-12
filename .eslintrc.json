@@ -1,0 +1,15 @@
+{
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "script",
+    "ecmaFeatures": {}
+  },
+  "rules": {
+    "newline-per-chained-call": 1
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": "plugin:cypress/recommended"
+}

@@ -1,0 +1,5 @@
+// IntelliSense is available for Cypress. It offers intelligent code suggestions directly in your IDE while writing tests.
+
+{
+  "include": ["./node_modules/cypress", "cypress/**/*.js"]
+}
